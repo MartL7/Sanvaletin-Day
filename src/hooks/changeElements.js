@@ -23,7 +23,7 @@ export const useChangeElements = () => {
 
     const handleButtonYes = () => {
         setImage(routesImages.isYes)
-        setTextP('Gracias por aceptar! Te amo mucho <3')
+        setTextP('Gracias por aceptar!<3')
         confetti()
     }
 
